@@ -10,7 +10,7 @@ class BookList extends Component {
 
     this.state = {
       books: [
-   {
+   /*{
       "id":4,
       "name":"A Guide to the Bodhisattva Way of Life",
       "author":"Santideva",
@@ -27,15 +27,15 @@ class BookList extends Component {
       "name":"Refactoring: Improving the Design of Existing Code",
       "author":"Martin Fowler",
       "price":47.99
-   }
+   }*/
 ],
       isLoading: false,
       error: null,
-      cart: [
+    /*  cart: [
 {id: 35, item: 'jumper', color: 'red', size: 'medium', price: 20},
 {id: 42, item: 'shirt', color: 'blue', size: 'medium', price: 15},
 {id: 71, item: 'socks', color: 'black', size: 'all', price: 5},
-]
+]*/
     };
   }
 
